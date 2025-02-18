@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bloodshot.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+    <header>
+        <nav>
+
+            <ul class="logo_ul">
+                <li class="logo_name">TM</li>
+            </ul>
+
+            <ul class="nav_ul">
+
+
+                <a href="./index.html">
+                    <li class="botom_border">NEW MOVIES</li>
+                </a>
+                <a href="./seryalar.html">
+                    <li class="botom_border">SERIALS</li>
+                </a>
+                <a href="./cartoonspage.html">
+                    <li class="botom_border">CARTOONS</li>
+                </a>
+                <select id="sort-options">
+                    <option value="A-B">A-B</option>
+                    <option value="B-A">B-A</option>
+                </select>
+                <form action="">
+                    <input type="text" id="search-input" placeholder="Search a film" class="inp1">
+                    <button id="button" class="btn_search">QIDIRISH</button>
+                </form>
+                <button id="theme-toggle">Toggle Dark Mode</button>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="flex_film">
+
+                <div class="movie-card2" id="secondcard2">
+                    <img src="7.jpg" alt="" class="cat_in">
+                    <h3 class="card2_title">Die Hart (2023)</h3>
+                </div>
+
+                <div class="about_film">
+                    <h3 class="card2_title" id="title_blood">Die Hart (2023)</h3>
+                    <p class="mv2_text" id="mv2_text"><span class="color_aqua" id="p_box">Directed by:</span> Eric Appel</p>
+                    <p class="mv2_text" id="mv2_text"><span class="color_aqua" id="p_box">Genre:</span> Action, Science
+                        Fiction</p>
+                    <p class="mv2_text margin-botom" id="mv2_text"><span class="color_aqua" id="p_box">Rating:</span>
+                        3.5</p>
+
+                    <div class="actors_main_div">
+                        <div class="actor1_div">
+                            <img src="./actors_img/kevindie_.jpg" alt="" class="actors_img1">
+                            <h5 class="actor1_name">Kevin Hart</h5>
+                        </div>
+                        <div class="actor1_div">
+                            <img src="./actors_img/johndie.jpg" alt="" class="actors_img1">
+                            <h5 class="actor1_name">John Travolta</h5>
+                        </div>
+                        <div class="actor1_div">
+                            <img src="./actors_img/264777ced4bec5c68af497667e8c0633.jpg" alt="" class="actors_img1">
+                            <h5 class="actor1_name">Nathalie Emmanuel</h5>
+                        </div>
+                        <div class="actor1_div">
+                            <img src="./actors_img/sam-heughan.jpg" alt="" class="actors_img1">
+                            <h5 class="actor1_name">Sam Heughan</h5>
+                        </div>
+                        <div class="actor1_div">
+                            <img src="./actors_img/MV5.jpg" alt="" class="actors_img1">
+                            <h5 class="actor1_name">Eiza González </h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section style="margin-bottom: 100px;">
+
+            <div class="kino_div">
+                <video controls src="./mp4_films/Die.Hart.The.Movie.2023__Kinosimka.RU.mp4" class="bloodshot_kino"></video>
+            </div>
+
+            <div class="line"></div>
+
+        </section>
+    </main>
+
+
+    <div id="main_div2">
+        <div class="movie-card2">
+            <img src="2.jpg" alt="" class="cat_in">
+            <h3 class="card2_title">Dragon Hunting</h3>
+            <p class="mv2_text"><span class="color_aqua">Directed by: </span>Kimio Yabuki</p>
+            <p class="mv2_text"><span class="color_aqua">Genre:</span> Adventure, Horror</p>
+            <p class="mv2_text margin-botom"><span class="color_aqua">Rating:</span>4.0</p>
+            <a href="" class="see_movie">see movie</a>
+        </div>
+
+        <div class="movie-card2">
+            <img src="1.jpg" alt="" class="cat_in">
+            <h3 class="card2_title">Puss in Boots</h3>
+            <p class="mv2_text"><span class="color_aqua">Directed by: </span>Kimio Yabuki</p>
+            <p class="mv2_text"><span class="color_aqua">Genre:</span> Adventure, Comedy, Fantasy</p>
+            <p class="mv2_text margin-botom"><span class="color_aqua">Rating: </span>9.5</p>
+            <a href="" class="see_movie">see movie</a>
+        </div>
+
+        <div class="movie-card2">
+            <img src="7.jpg" alt="" class="cat_in">
+            <h3 class="card2_title">Die Hart (2023)</h3>
+            <p class="mv2_text"><span class="color_aqua">Directed by: </span> Eric Appel</p>
+            <p class="mv2_text"><span class="color_aqua">Genre:</span> Action, Comedy</p>
+            <p class="mv2_text margin-botom"><span class="color_aqua">Rating: </span>5.5</p>
+            <a href="" class="see_movie">see movie</a>
+        </div>
+
+    </div>
+    
+    
+    <a href="./index.html" style="display: flex;"><button class="all_films">Boshqa Filmlar</button></a>
+    <div class="line"></div>
+
+    <script src="./movie.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+.movie-card2 {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    width: 296px;
+    height: 550px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.movie-card2:hover {
+    transform: scale(1.05);
+}
+
+
+body.dark-mode .movie-card2 {
+    background: #333;
+    color: white;
+    transition: .5s ease;
+    border: 2px solid aqua;
+}
+
+body.dark-mode .movie-card2:hover {
+    box-shadow: 0 0 22px 3px aqua;
+}
+
+
+
+
+#secondcard2 {
+    height: 450px;
+}
+
+.flex_film {
+    display: flex;
+    gap: 40px;
+}
+
+body.dark-mode #title_blood {
+    color: aqua;
+    border: 2px solid aqua;
+}
+
+#title_blood {
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#p_box {
+    padding: 5px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+body.dark-mode #p_box {
+    color: aqua;
+    border: 2px solid aqua;
+}
+
+#mv2_text {
+    margin-bottom: 30px;
+}
+
+.about_film {
+    margin-top: 100px;
+}
+
+
+
+
+
+.actors_main_div {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.actor1_div {
+    width: 120px;
+}
+
+.actors_img1 {
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px 2px black;
+    border: 2px solid black;
+}
+
+body.dark-mode .actors_img1 {
+    border: 2px solid aqua;
+    box-shadow: 0 0 22px 2px aqua;
+}
+
+body.dark-mode .actor1_name {
+    color: aqua;
+}
+
+.actor1_name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+.kino_div{
+    margin-top: 100px;
+}
+
+.bloodshot_kino{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    outline: none;
+    border-radius: 10px;
+}
+
+body.dark-mode .bloodshot_kino{
+    border: 2px solid aqua;
+}
+
+.all_films{
+    width: 140px;
+    height: 40px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px auto;
+    transition: .3s ease;
+}
+.all_films:hover{
+    box-shadow: 0 0 20px 3px black;
+}
+
+body.dark-mode .all_films{
+    border: 2px solid aqua;
+    color: aqua;
+}
+body.dark-mode .all_films:hover{
+    box-shadow: 0 0 20px 3px aqua;
+}
